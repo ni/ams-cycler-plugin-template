@@ -1,0 +1,7 @@
+# LabVIEW
+**.lvlps
+**.aliases
+
+# NI Package Builder
+**/build/Packages/*
+**/build/ProcessingStage/*
