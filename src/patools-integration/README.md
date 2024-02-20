@@ -6,8 +6,8 @@ This layer is the data transfer layer between a plugin and the PAtools runtime. 
 
 This workflow requires the following software
 
-PAtools 8.3+
-NI Package Builder
+- PAtools 8.3+
+- NI Package Builder
 
 ## Building
 

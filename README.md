@@ -6,7 +6,7 @@ This repository contains a template for building a BTS Cycler.
 - Update this readme for your plugin.
 - Build your BTS RT Plugin layer in LabVIEW
   - Refer to the [BTS RT Plugin Instructions](https://github.com/ni/adas-replay-hil-internal/wiki/Installation-Guide-(24Q1-Public-Release))
-  - Install the BTS-Capabilities API.
+  - Install the [BTS-Capabilities API](https://github.com/ni/bts-capabilities).
   - Using the BTS-Capabilities API will ensure you're compatible with the template PAtools and VeriStand layers.
 
 
