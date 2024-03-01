@@ -597,6 +597,7 @@
 			<Item Name="AB_Get_Info_From_GUID.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/AppBuilder/AB_Get_Info_From_GUID.vi"/>
 			<Item Name="provcom_GetProvidersDirPseudo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Common/provcom_GetProvidersDirPseudo.vi"/>
 			<Item Name="mxLvGetItemRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItemRef.vi"/>
+			<Item Name="9c1d1a77308d2a44" Type="VI" URL="/&lt;resource&gt;/9c1d1a77308d2a44"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -776,18 +777,18 @@ AddOutputFilter chunkFilter
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="AdasLvTemplateOutOfBand_Queue.lvlib" Type="Library" URL="/&lt;vilib&gt;/ADAS Replay HIL/ADAS Plugin Utilities/AdasLvTemplateOutOfBand_Queue/AdasLvTemplateOutOfBand_Queue.lvlib"/>
-				<Item Name="Control Mode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Control Mode/Control Mode.lvclass"/>
-				<Item Name="Current Control.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Current/Current Control.lvclass"/>
-				<Item Name="Current Limits.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Current Limits/Current Limits.lvclass"/>
-				<Item Name="Voltage Control.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Voltage/Voltage Control.lvclass"/>
-				<Item Name="Voltage Limits.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Voltage Limits/Voltage Limits.lvclass"/>
-				<Item Name="Power Control.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Power/Power Control.lvclass"/>
-				<Item Name="Power Limits.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Power Limits/Power Limits.lvclass"/>
-				<Item Name="Cycler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Cycler/Cycler.lvclass"/>
-				<Item Name="Capability.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BTS Capabilities/Capability/Capability.lvclass"/>
+				<Item Name="Control Mode.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Control Mode/Control Mode.lvclass"/>
+				<Item Name="Current Control.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Current/Current Control.lvclass"/>
+				<Item Name="Current Limits.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Current Limits/Current Limits.lvclass"/>
+				<Item Name="Voltage Control.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Voltage/Voltage Control.lvclass"/>
+				<Item Name="Voltage Limits.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Voltage Limits/Voltage Limits.lvclass"/>
+				<Item Name="Power Control.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Power/Power Control.lvclass"/>
+				<Item Name="Power Limits.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Power Limits/Power Limits.lvclass"/>
+				<Item Name="Cycler.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Cycler/Cycler.lvclass"/>
+				<Item Name="Capability.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/BLS Capabilities/Capability/Capability.lvclass"/>
 				<Item Name="Tag Wrapper.lvlib" Type="Library" URL="/&lt;vilib&gt;/ADAS Replay HIL/Channels/Tag Wrapper/Tag Wrapper.lvlib"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
-				<Item Name="Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/BTS Capabilities/Utilities/Utilities.lvlib"/>
+				<Item Name="Utilities.lvlib" Type="Library" URL="/&lt;vilib&gt;/BLS Capabilities/Utilities/Utilities.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="SEH Shared Error Options.ctl" Type="VI" URL="/&lt;userlib&gt;/_SEH/Controls/SEH/SEH Shared Error Options.ctl"/>
