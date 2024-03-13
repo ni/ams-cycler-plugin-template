@@ -9,6 +9,14 @@ This repo implements the lower-2 layers (in green and blue). The "Device Specifi
 
 # Creating the LabVIEW Plugin
 
+## Supported Versions
+
+- PAtools 8.3+
+- LinuxRT 23Q3+
+- LabVIEW 2023Q3+
+- BLS Capabilities API 0.5+
+- ADAS Replay HIL Development Suite 24Q1
+
 1. Install the ADAS Replay and HIL AD Development Suite for LabVIEW.
 1. Install the [BLS Capabilities API](https://github.com/ni/bls-capabilities).
 1. Refer to the [ADAS Plugin Development](https://github.com/ni/adas-replay-hil-internal/wiki/Node-Development) to create your basic plugin.
