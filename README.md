@@ -47,6 +47,10 @@ Refer to the [PAtools Integration Layer Readme](/src/patools-integration/README.
 
 :cactus: Update these flags to indicate what you have built-in so far.
 
+- To indicate you've added support for these layers
+  - Change the color at the end to Green
+  - Change "Unsupported" to "Supported"
+
 ![Static Badge](https://img.shields.io/badge/PAtools_Integration-Unsupported-red)
 ![Static Badge](https://img.shields.io/badge/VeriStand_Integration-Unsupported-red)
 ![Static Badge](https://img.shields.io/badge/nipkg-Unsupported-red)
