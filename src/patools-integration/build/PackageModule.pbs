@@ -3,7 +3,7 @@
     <SourceItems>
         <SourceItem z:Id="i2">
             <PluginConfigurationOptions />
-            <RelativePath>..\Template_Module.xml</RelativePath>
+            <RelativePath>..\BTS_Cycler_Template_EVO_(Module_BTS_Cycler_Template_EVO).zip</RelativePath>
             <DependentItems />
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
@@ -24,17 +24,17 @@
                     <Name>PAtools Integration Plugins</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i6" i:type="DistributionFileItem">
-                    <DestinationRelativePath>[Documents]\National Instruments\BTS Plugins\PAtools Integration Plugins\Template_Module.xml</DestinationRelativePath>
-                    <Name>Template_Module.xml</Name>
-                    <SourceItem z:Ref="i2" />
-                    <PluginConfigurationOptions />
-                    <ProcessDuringStaging>true</ProcessDuringStaging>
-                </DistributionItem>
-                <DistributionItem z:Id="i7" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i6" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
                     <Name>National Instruments</Name>
                     <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i7" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\BTS Plugins\PAtools Integration Plugins\BTS_Cycler_Template_EVO_(Module_BTS_Cycler_Template_EVO).zip</DestinationRelativePath>
+                    <Name>BTS_Cycler_Template_EVO_(Module_BTS_Cycler_Template_EVO).zip</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
             </DistributionItems>
             <Name>Plugin Name</Name>

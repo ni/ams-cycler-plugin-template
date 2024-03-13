@@ -5,3 +5,4 @@
 # NI Package Builder
 **/build/Packages/*
 **/build/ProcessingStage/*
+**/build/log-PackageModule.txt
