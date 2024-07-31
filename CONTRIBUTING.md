@@ -1,17 +1,4 @@
-# Contributing to BLS Climate Chamber
-
-
-# Getting Started
-
-- Build steps
-    - Expand "RT PXI Target"
-    - Expand "Build Specifications"
-    - Right-click "BLS Power Supply Template" and select "Build"
-
-
-# Testing
-
-- ADD MORE INFO
+# Contributing to BLS Power Supply
 
 # Style Guide
 
