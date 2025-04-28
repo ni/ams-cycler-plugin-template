@@ -21,7 +21,7 @@ see [PAtools Integration Readme](/patools-integration/PAtools%20Integration%20RE
 # Cycler Plugin Description
 
 * The cycler plugin takes in user inputs to control the system and values and then output the set values for items such as the voltage, power, and current of the device. The cycler is dynamic and has a high current.
-* To intialize and close channels used in the cycler plugin: In Create Channels.vi, wire in the Cycler Initialize.vi and in Destroy Channels.vi use the Cycler Close.vi. The AMS capabilities Cycler high level capabilities Close.vi and Initialize.vi initialize and close all of the VI and classes that are implemented.
+* To initialize and close channels used in the cycler plugin: In Create Channels.vi, wire in the Cycler Initialize.vi and in Destroy Channels.vi use the Cycler Close.vi. The AMS capabilities Cycler high level capabilities Close.vi and Initialize.vi initialize and close all of the VI and classes that are implemented.
 * As a part of the simulation, some of the tasks that are done by the Process Data.vi include checking the conditions that on off and output enable are set to true before setting values, checking the range of current, voltage, and power, applying the gradient to control the rate at which the values change, simulating noise through the addition of random numbers, setting/resetting the error status and conditions if errors are present, counting and resetting the watchdog, and selecting an output mode which uses arithmetic to output power and current.
 
 # Helper VIs
