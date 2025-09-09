@@ -29,4 +29,4 @@ see [PAtools Integration Readme](/patools-integration/PAtools%20Integration%20RE
 * Apply Gradient: Controls how the value of each element is changing over time
 * Create element output: Takes each of the current, voltage, and power element inputs after they are passed through the Apply Gradient VI, and checks they are within the set max and min range and fixes them to be within range. If they aren't in range, an error is written to error channels. If output is enabled and it OnOff is true, there will be simulated noise added to each of the now in range elements, and the values will be passed to the outputs.
 * Control Simu: Handles the simulation for the control values
-* Measure Simu: Handles te simulation for the channel values
+* Measure Simu: Handles the simulation for the channel values
