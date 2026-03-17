@@ -1,6 +1,6 @@
 {
   "Name":"AMS Cycler Template",
-  "Version":{"Major":2,"Minor":0,"Fix":0,"Build":0},
+  "Version":{"Major":3,"Minor":0,"Fix":0,"Build":0},
   "Configuration":{
     "Name":"Default Parameters",
     "DataType":"Container",
